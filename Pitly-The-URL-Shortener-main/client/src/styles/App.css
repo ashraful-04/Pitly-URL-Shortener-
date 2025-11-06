@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-background: #031f39;
+    --color-text: #ffffff;
+    --color-button: #f49369;
+    --color-button-hover: #d17046;
+    --color-light-border: #00000050;
+}
+
+@layer {
+    .heading {
+        @apply font-bold text-2xl md:text-3xl lg:text-5xl text-center mb-5
+    }
+
+    .card {
+        @apply p-5 text-black bg-white rounded-3xl w-full md:w-2/3 lg:w-1/2
+    }
+
+    .col-header {
+        @apply font-semibold
+    }
+
+    .home,
+    .analytics {
+        @apply p-5 space-y-10
+    }
+    
+}
+
+body {
+    font-family: "Poppins", serif;
+}
