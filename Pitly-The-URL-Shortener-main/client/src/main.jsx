@@ -13,7 +13,7 @@ createRoot(document.getElementById('root')).render(
         domain={import.meta.env.VITE_AUTH0_DOMAIN}
         clientId={import.meta.env.VITE_AUTH0_CLIENT_ID}
         authorizationParams={{
-          redirect_uri: "https://pitly-frontend.onrender.com/app"
+          redirect_uri: "https://pitly-url-shortener-main.onrender.com/app"
         }}
       >
         <Routes>
