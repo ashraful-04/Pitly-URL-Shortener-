@@ -40,4 +40,9 @@ app.get('/:shortId', async (req, res) => {
     }
 })
 
+app.get('/', (req, res) => {
+  res.send('✅ Pitly backend is deployed successfully and working!');
+});
+
+
 app.listen(PORT, () => console.log(`Server running at port ${PORT}...`))
